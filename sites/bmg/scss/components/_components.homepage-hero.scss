@@ -20,7 +20,8 @@
 
 		&::before {
 			display: var(--hero-banner-title-accent-before--display, none);
-
+			@include absolute(50%, null, null, -100px);
+			transform: translateY(-50%);
 			content: "";
 			width: 27px;
 			height: 60px;
@@ -34,7 +35,8 @@
 
 		&::after {
 			display: var(--hero-banner-title-accent-after--display, none);
-
+			@include absolute(50%, -100px, null, null);
+			transform: translateY(-50%);
 			content: "";
 			width: 24px;
 			height: 60px;
