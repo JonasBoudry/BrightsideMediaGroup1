@@ -15,6 +15,9 @@ pageId: base
 	<meta name="author" content="{{author}}">
 	<meta property="og:site_name" content="{{sitename}}" />
 	<meta property="og:title" content="{{title}}" />
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.brightsidemediagroup.be">
+
 	{{#if noFollow}}
 	<meta name="robots" content="noindex,nofollow">
 	{{/if}}
@@ -53,6 +56,80 @@ pageId: base
 			z-index: 2;
 		}
 	</style>
+
+
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.brightsidemediagroup.be/#organization",
+  "name": "Brightside Media Group",
+  "url": "https://www.brightsidemediagroup.be/",
+  "logo": "https://www.brightsidemediagroup.be/assets/logo.png",
+  "description": "Brightside Media Group is a Belgium-based media company providing consultancy, production management, and funding solutions for audiovisual and performing arts productions.",
+  "foundingLocation": {
+    "@type": "Country",
+    "name": "Belgium"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Belgium"
+  },
+  "knowsAbout": [
+    "Film production",
+    "Television production",
+    "Documentary production",
+    "Audiovisual production",
+    "Production management",
+    "Tax shelter funding",
+    "Media financing",
+    "Creative partnerships",
+    "Content production"
+  ],
+  "hasPart": [
+    {
+      "@type": "Organization",
+      "name": "Brightside Productions",
+      "description": "Production company specializing in audiovisual and performing arts projects."
+    },
+    {
+      "@type": "Organization",
+      "name": "Flanders Tax Shelter",
+      "description": "Funding platform connecting Belgian investors with audiovisual productions."
+    },
+    {
+      "@type": "Organization",
+      "name": "Media Partners",
+      "description": "Consultancy firm providing legal, financial, and strategic production expertise."
+    },
+    {
+      "@type": "Organization",
+      "name": "Famework",
+      "description": "Platform connecting content creators, brands, and agencies for partnerships and product placement."
+    }
+  ],
+  "offers": [
+    {
+      "@type": "Service",
+      "name": "Production Management",
+      "serviceType": "Film and television production management"
+    },
+    {
+      "@type": "Service",
+      "name": "Media Consultancy",
+      "serviceType": "Strategic, legal, and financial consultancy for media productions"
+    },
+    {
+      "@type": "Service",
+      "name": "Production Funding",
+      "serviceType": "Tax shelter and investment structuring for audiovisual productions"
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/company/brightside-media-group"
+  ]
+}
+</script>
 
 
 	{{#if hasOverviewPageStyling}}
