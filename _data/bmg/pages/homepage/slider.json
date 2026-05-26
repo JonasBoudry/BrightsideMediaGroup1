@@ -23,6 +23,13 @@
             "loading": "eager"
         },
         {
+            "src": "/assets/media/images/slider/rauw.avif",
+            "alt": "Productie Rauw foto",
+            "width": "570",
+            "height": "380",
+            "loading": "eager"
+        },
+        {
             "src": "/assets/media/images/slider/alex-agnew.avif",
             "alt": "Productie Alex Agnew foto",
             "width": "570",
